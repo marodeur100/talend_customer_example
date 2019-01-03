@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lKiCAA83EemAu-NpEUoUzw" name="CustomerExp" id="_lKeXoA83EemAu-NpEUoUzw" dataPackage="_lKiCAQ83EemAu-NpEUoUzw" Server="Localhost 127.0.0.1" FilePath="/home/osboxes/talend_kub_airflow/talend/output_file/customerexp.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lKiCAQ83EemAu-NpEUoUzw" name="default" dataManager="_lKiCAA83EemAu-NpEUoUzw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lKiCAg83EemAu-NpEUoUzw" id="_vj438A82EemAu-NpEUoUzw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lKiCAw83EemAu-NpEUoUzw" label="id" length="-1" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lKiCBA83EemAu-NpEUoUzw" label="CustomerName" length="10000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lKiCBQ83EemAu-NpEUoUzw" label="CustomerAddress" length="10000" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lKiCBg83EemAu-NpEUoUzw" label="State" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

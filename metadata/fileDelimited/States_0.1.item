@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cHf4sA7eEemdsr-K6sHNsw" name="States" dataPackage="_cHf4sQ7eEemdsr-K6sHNsw" Server="Localhost 127.0.0.1" FilePath="/home/osboxes/talend_kub_airflow/talend/input_files/state.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cHf4sQ7eEemdsr-K6sHNsw" name="default" dataManager="_cHf4sA7eEemdsr-K6sHNsw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cHf4sg7eEemdsr-K6sHNsw" id="_OpGZ4A7eEemdsr-K6sHNsw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cHf4sw7eEemdsr-K6sHNsw" label="idState" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cHf4tA7eEemdsr-K6sHNsw" label="LabelState" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

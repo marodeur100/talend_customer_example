@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_TBCjIA7hEema_cd4qCEehw" dataPackage="_TBCjIQ7hEema_cd4qCEehw"/>
+  <TalendMetadata:GenericPackage xmi:id="_TBCjIQ7hEema_cd4qCEehw" dataManager="_TBCjIA7hEema_cd4qCEehw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TBCjIg7hEema_cd4qCEehw" id="_TA-4wA7hEema_cd4qCEehw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBCjIw7hEema_cd4qCEehw" name="id" label="id" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBCjJA7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBCjJQ7hEema_cd4qCEehw" name="CustomerName" label="CustomerName" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBCjJg7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxQA7hEema_cd4qCEehw" name="CustomerAddress" label="CustomerAddress" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBDxQQ7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxQg7hEema_cd4qCEehw" name="idState" label="idState" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBDxQw7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxRA7hEema_cd4qCEehw" name="id2" label="id2" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBDxRQ7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxRg7hEema_cd4qCEehw" name="RegTime" label="RegTime" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBDxRw7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxSA7hEema_cd4qCEehw" name="RegisterTime" label="RegisterTime" length="23" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.000&quot;">
+        <initialValue xmi:id="_TBDxSQ7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxSg7hEema_cd4qCEehw" name="Sum1" label="Sum1" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBDxSw7hEema_cd4qCEehw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TBDxTA7hEema_cd4qCEehw" name="Sum2__" label="Sum2__" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_TBDxTQ7hEema_cd4qCEehw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
