@@ -1,3 +1,5 @@
+ETL example build for a [Kubernetes & Airflow Demo](https://medium.com/@fklemm100/master-devops-data-architecture-with-apache-airflow-kubernetes-and-talend-60368e63e14f)
+
 # Talend ETL example
 The example consists of 4 ETL jobs. Two CSV input files with customers and states will be aggregated into a postgres DB and finally written out into a CSV result file.
 
